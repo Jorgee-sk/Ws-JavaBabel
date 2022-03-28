@@ -1,0 +1,6 @@
+package main;
+
+public class Videojuego {
+	private string titulo;
+	
+}

@@ -1,0 +1,9 @@
+package entidad;
+
+public class Prueba {
+	
+	
+	public prueba() {
+		
+	}
+}

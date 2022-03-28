@@ -1,0 +1,32 @@
+package entidad;
+
+public class Trabajador extends Empleado{
+	
+	private int valoracion;
+
+	public int getValoracion() {
+		return valoracion;
+	}
+
+	public void setValoracion(int valoracion) {
+		this.valoracion = valoracion;
+	}
+	
+	@Override
+	public void calcularSueldo() {
+		
+		this.getSueldoBase();
+			
+		if(valoracion<=4 && valoracion >=0) {
+			
+		}else if(valoracion ==5 || valoracion == 6) {
+			
+		}else if(valoracion ==7 || valoracion == 8) {
+			
+		}else if(valoracion ==9 || valoracion == 10) {
+			
+		}
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package entidad;
+
+public class Empleado {
+	
+	String nombre;
+	int sueldoBase;
+	
+	
+	
+	
+}

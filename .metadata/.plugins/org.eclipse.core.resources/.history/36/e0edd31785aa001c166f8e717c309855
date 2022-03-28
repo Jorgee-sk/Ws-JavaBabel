@@ -1,0 +1,17 @@
+package entidad;
+
+public class Persona {
+	
+	/*
+	 * La encapsulacion en java se define en 4 niveles 
+	 * de visibilidad:
+	 * 
+	 * */
+	String nombre;
+	int edad;
+	double peso;
+	
+	void presentarse() {
+		System.out.println("Hola soy "+ this.nombre);
+	}
+}

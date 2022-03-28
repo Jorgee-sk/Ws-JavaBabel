@@ -1,0 +1,10 @@
+package otroPaquete;
+import entidad.Persona;
+
+
+public class Prueba {
+	
+	public void prueba() {
+		Persona p = new Persona;
+	}
+}

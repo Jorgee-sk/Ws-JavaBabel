@@ -1,0 +1,9 @@
+package entidad;
+
+public class Persona {
+	String nombre;
+	int edad;
+	double peso;
+	
+	
+}

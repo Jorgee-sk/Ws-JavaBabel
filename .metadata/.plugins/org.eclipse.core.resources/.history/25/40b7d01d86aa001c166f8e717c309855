@@ -1,0 +1,6 @@
+package entidad;
+
+public class Prueba {
+	
+	Persona p = new Persona();
+}

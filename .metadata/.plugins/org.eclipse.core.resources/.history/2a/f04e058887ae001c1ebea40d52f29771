@@ -1,0 +1,10 @@
+package entidad;
+
+public class Directivo extends Empleado{
+
+	@Override
+	public void calcularSueldo() {
+		
+		
+	}
+}

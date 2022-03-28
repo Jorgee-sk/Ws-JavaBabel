@@ -1,0 +1,17 @@
+package main;
+
+import entidad.Directivo;
+import entidad.Empleado;
+import entidad.Jefe;
+import entidad.Trabajador;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Empleado e1 = new Trabajador();
+		E
+	}
+
+}
