@@ -1,8 +1,0 @@
-package entidad;
-
-public class Prueba {
-	
-	Persona p = new Persona();
-	
-	p.nombre = "Hola";
-}

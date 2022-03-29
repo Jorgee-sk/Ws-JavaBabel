@@ -1,22 +1,24 @@
 package entidad;
 
+import java.util.*;
+
 public class Directivo extends Empleado{
 	
-	private int nEmpleados;
+	private List<Empleado> a = new ArrayList<>();;
 	
 	public int getnEmpleados() {
-		return nEmpleados;
+		return this.a.size();
 	}
 
 
-	public void setnEmpleados(int nEmpleados) {
-		this.nEmpleados = nEmpleados;
+	public void setnEmpleados(Empleado nEmpleados) {
+		this.a.add(nEmpleados);
 	}
 	
 	@Override
 	public void calcularSueldo() {
 		
-		int sueldoTotal = this.getSueldoBase()+(this.nEmpleados*100);
+		int sueldoTotal = this.getSueldoBase()+(this.a.size()*100);
 		System.out.println("El sueldo del directivo es: "+sueldoTotal);
 	}
 

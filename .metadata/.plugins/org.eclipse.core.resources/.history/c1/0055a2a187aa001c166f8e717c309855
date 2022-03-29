@@ -1,7 +1,0 @@
-package main;
-
-public class Videojuego {
-	private String titulo;
-	public int nota;
-	
-}

@@ -4,4 +4,5 @@
     <fullyQualifiedTypeName name="entidad.Prueba"/>
     <fullyQualifiedTypeName name="otroPaquete.Prueba"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="entidad.Directivo"/>
 </qualifiedTypeNameHistroy>

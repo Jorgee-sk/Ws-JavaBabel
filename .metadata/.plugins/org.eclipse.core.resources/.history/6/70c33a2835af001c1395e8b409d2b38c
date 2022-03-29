@@ -1,0 +1,59 @@
+package main;
+
+import entidad.Directivo;
+import entidad.Empleado;
+import entidad.Jefe;
+import entidad.Trabajador;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<Empleado> listaEmpleados = new ArrayList<>();
+		
+		Empleado e1 = new Trabajador();
+		
+		e1.setNombre("Juan");
+		e1.setSueldoBase(900);
+		Trabajador t = (Trabajador) e1;
+		t.setValoracion(7);
+		listaEmpleados.add(e1);
+		
+		e1 = new Trabajador();
+		e1.setNombre("Pepe");
+		e1.setSueldoBase(900);
+		Trabajador t = (Trabajador) e1;
+		t.setValoracion(7);
+		listaEmpleados.add(e1);
+		
+		e1 = new Trabajador();
+		e1.setNombre("Christian");
+		e1.setSueldoBase(900);
+		listaEmpleados.add(e1);
+		
+		
+		e1 = new Directivo();
+		
+		e1.setNombre("Pedro");
+		e1.setSueldoBase(1200);
+		listaEmpleados.add(e1);
+		
+		e1 = new Jefe();
+		e1.setNombre("Alvaro");
+		e1.setSueldoBase(1050);
+		listaEmpleados.add(e1);
+		
+		for(int i=0; i<listaEmpleados.size(); i++) {
+			
+		}
+		
+		
+	
+		
+		
+		
+	}
+
+}
