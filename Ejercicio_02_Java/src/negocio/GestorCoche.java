@@ -12,7 +12,13 @@ public class GestorCoche {
 		
 		
 		public int alta(Coche c){
+			
+			
+			
 			if(c.getMatricula().length() == 7 && c.getKilometros()>=0) {
+				if(getMatriculaUnique(c.getMatricula(),c)) {
+					return 4;
+				}
 				boolean alta = daoCoche.alta(c);
 				if(alta) {
 					return 0;
@@ -47,6 +53,14 @@ public class GestorCoche {
 			}
 		}
 		
+		public Boolean getMatriculaUnique(String matricula, Coche c) {
+			Coche car = daoCoche.obtener(matricula);
+			if(c.getMatricula().equals(car.getMatricula())){
+				return true;
+			}else {
+				return false;
+			}
+		}
 		
 		public Coche obtener(int id){
 			Coche car = daoCoche.obtener(id);

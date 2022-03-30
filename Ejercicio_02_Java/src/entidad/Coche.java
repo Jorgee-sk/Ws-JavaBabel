@@ -1,6 +1,11 @@
 package entidad;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Coche {
+	
+	private static final Set<String> matriculas = new HashSet<String>();
 	
 	private int id;
 	private String matricula;
@@ -18,7 +23,8 @@ public class Coche {
 	public String getMatricula() {
 		return matricula;
 	}
-	public void setMatricula(String matricula) {
+	public void setMatricula(String matricula){
+        
 		this.matricula = matricula;
 	}
 	

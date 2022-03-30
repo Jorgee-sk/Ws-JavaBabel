@@ -33,7 +33,9 @@ public class Main {
 				c.setModelo(modelo);
 				c.setKilometros(km);
 				
-				int añadir = gestor.alta(c);
+				
+				int añadir  = gestor.alta(c);
+				
 				if(añadir == 0) {
 					System.out.println("Coche añadido");
 				}else if(añadir == 1) {
@@ -42,6 +44,8 @@ public class Main {
 					System.out.println("La matricula es invalida");
 				}else if(añadir == 3) {
 					System.out.println("Los kilometros son invalidos");
+				}else if(añadir == 4) {
+					System.out.println("La matricula ya existe");
 				}
 				break;
 			case 2:
