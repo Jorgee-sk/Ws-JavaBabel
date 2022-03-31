@@ -62,7 +62,10 @@ public class Main {
 					System.out.println(jugador1.getNombre()+" va a usar toda su potencia para atacar");
 				else
 					System.out.println(jugador1.getNombre()+" va a atacar");
-			
+				
+				if(jugador1.isgCritico())
+					System.out.println(" GOLPE CRITICO! ");
+				
 				jugador2.setVida(jugador2.getVida()-aux);
 				System.out.println("==== VIDA DEL JUGADOR 2 ====");
 				System.out.println("==== "+jugador2.getVida()+" ====");
@@ -85,6 +88,9 @@ public class Main {
 					System.out.println(jugador2.getNombre()+" va a atacar");
 				
 				jugador2.setVida(jugador1.getVida()-aux);
+				
+				if(jugador2.isgCritico())
+					System.out.println(" GOLPE CRITICO! ");
 				
 				System.out.println("==== VIDA DEL JUGADOR 1 ====");
 				System.out.println("==== "+jugador1.getVida()+" ====");

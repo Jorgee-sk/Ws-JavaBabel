@@ -6,6 +6,7 @@ public abstract class Personaje {
 	private Arma arma;
 	private String nombre;
 	private boolean boostArma;
+	private boolean gCritico;
 	
 	public String getNombre() {
 		return nombre;
@@ -29,12 +30,20 @@ public abstract class Personaje {
 	}
 	
 	public abstract int atacar();
+	public abstract boolean critico();
+	
 	
 	public boolean isBoostArma() {
 		return boostArma;
 	}
 	public void setBoostArma(boolean boostArma) {
 		this.boostArma = boostArma;
+	}
+	public boolean isgCritico() {
+		return gCritico;
+	}
+	public void setgCritico(boolean gCritico) {
+		this.gCritico = gCritico;
 	}
 	
 }
