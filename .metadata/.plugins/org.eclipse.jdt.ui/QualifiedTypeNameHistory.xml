@@ -12,10 +12,20 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="persistencia.DaoCocheMySql"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="negocio.GestorCoche"/>
     <fullyQualifiedTypeName name="entidad.Coche"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="entidad.Personaje"/>
+    <fullyQualifiedTypeName name="entidad.Curanderos"/>
+    <fullyQualifiedTypeName name="entidad.Mago"/>
+    <fullyQualifiedTypeName name="entidad.Guerrero"/>
+    <fullyQualifiedTypeName name="entidad.Arma"/>
+    <fullyQualifiedTypeName name="entidad.Espada"/>
+    <fullyQualifiedTypeName name="entidad.Arcos"/>
+    <fullyQualifiedTypeName name="entidad.Hechizos"/>
+    <fullyQualifiedTypeName name="entidad.Rezos"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
