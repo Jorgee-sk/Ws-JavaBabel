@@ -28,4 +28,5 @@
     <fullyQualifiedTypeName name="entidad.Hechizos"/>
     <fullyQualifiedTypeName name="entidad.Rezos"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="entidades.Calculo"/>
 </qualifiedTypeNameHistroy>
