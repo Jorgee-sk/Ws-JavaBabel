@@ -3,14 +3,12 @@
     <fullyQualifiedTypeName name="entidad.Persona"/>
     <fullyQualifiedTypeName name="entidad.Prueba"/>
     <fullyQualifiedTypeName name="otroPaquete.Prueba"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="entidad.Directivo"/>
     <fullyQualifiedTypeName name="interfaces.DaoCoche"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="persistencia.DaoCocheMySql"/>
     <fullyQualifiedTypeName name="negocio.GestorCoche"/>
     <fullyQualifiedTypeName name="entidad.Coche"/>
@@ -29,4 +27,10 @@
     <fullyQualifiedTypeName name="entidad.Rezos"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="entidades.Calculo"/>
+    <fullyQualifiedTypeName name="es.videojuego.modelo.negocio.Batalla"/>
+    <fullyQualifiedTypeName name="es.videojuego.modelo.entidad.Arma"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="es.videojuego.modelo.entidad.Jefe"/>
+    <fullyQualifiedTypeName name="es.videojuego.modelo.entidad.Espada"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

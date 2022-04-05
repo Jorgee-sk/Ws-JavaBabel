@@ -1,6 +1,0 @@
-package entidad;
-
-public class Trabajador extends Empleado{
-	
-	private int valoracion;
-}
