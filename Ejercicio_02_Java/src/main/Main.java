@@ -90,36 +90,59 @@ public class Main {
 				System.out.println("Introduzca la ID del coche a buscar: ");
 				id = sc.nextInt();
 				
-				c = gestor.obtener(id);
-				System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				List<Coche> lista = gestor.listar();
+				
+				if(!lista.isEmpty()) {
+					c = gestor.obtener(id);
+					System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				}else {
+					System.out.println("No hay coches con esa ID");
+				}
 				
 				break;
+				
+				
 			case 5:
 				System.out.println("Introduzca la matricula del coche a buscar: ");
 				matricula = sc.next();
 				
-				c = gestor.obtener(matricula);
-				System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				lista = gestor.listar();
 				
+				if(!lista.isEmpty()) {
+					c = gestor.obtener(matricula);
+					System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				}else {
+					System.out.println("No hay coches con esa matricula");
+				}
 				break;
 			case 6:
 				System.out.println("Introduzca la marca del coche a buscar: ");
 				marca = sc.next();
 				
-				c = gestor.obtenerMarca(marca);
-				System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				lista = gestor.listar();
 				
+				if(!lista.isEmpty()) {
+					c = gestor.obtener(marca);
+					System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				}else {
+					System.out.println("No hay coches con esa marca");
+				}
 				break;
 			case 7:
 				System.out.println("Introduzca el modelo del coche a buscar: ");
 				modelo = sc.next();
 				
-				c = gestor.obtenerModelo(modelo);
-				System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				lista = gestor.listar();
 				
+				if(!lista.isEmpty()) {
+					c = gestor.obtener(modelo);
+					System.out.println("Coche [ID: " + c.getId() + ", MATRICULA: " + c.getMatricula() + ", MARCA: " + c.getMarca() + ", MODELO: " + c.getModelo() + ", KILOMETROS: "+c.getKilometros()+"]");
+				}else {
+					System.out.println("No hay coches con ese modelo");
+				}
 				break;
 			case 8:
-				List<Coche> lista = gestor.listar();
+				lista = gestor.listar();
 				for(int i=0;i<lista.size();i++) {
 					System.out.println(lista.get(i));
 				}
